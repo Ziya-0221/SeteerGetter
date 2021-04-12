@@ -10,10 +10,12 @@ package settergetter;
  * @author indi
  */
 public class example {
+    //membuat variabel
     protected String nama;
     protected String kelas;
     protected String tanggal;
     
+    //meethod setter
     public void setNama(String nama){
         this.nama=nama;
     }
@@ -26,6 +28,7 @@ public class example {
         this.tanggal=tanggal;
     }
     
+    //method getter
     String getNama(){
         return nama;
     }
@@ -37,6 +40,7 @@ public class example {
         return tanggal;
     }
     
+    //menampilakan garis
     public void line(){
         System.out.println("-------------------------------");
     }
